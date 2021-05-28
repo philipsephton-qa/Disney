@@ -5,19 +5,15 @@ const FilterBar = (props) => {
   return (
     <Container>
       <Row>
+        <center>
         <Col xs="3"><Label for="exampleEmail"></Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Search by name" /></Col>
-    
-      </Row>
-      
-      <Row>
 
-      <Col xs="3"><Label for="exampleEmail"></Label>
+        <Col xs="3"><Label for="exampleEmail"></Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Search by type" /></Col>
+      </center>
       </Row>
-     
-      
-        
+
       
     </Container>
   );
